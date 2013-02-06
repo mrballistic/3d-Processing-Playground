@@ -13,7 +13,7 @@ public class MyProcessingSketch extends PApplet {
 		
 		sphereDetail(20);
 
-		size(800,800,P3D);
+		size(1280,720,P3D);
 		blur = loadShader("blur.glsl");
 		move = true;
 		
